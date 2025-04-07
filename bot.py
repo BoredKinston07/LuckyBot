@@ -69,7 +69,7 @@ async def handle_bet(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     user_data["awaiting_game"] = None
 
-app = ApplicationBuilder().token("7985078811:AAFD0kCFRXRzU9DNC7k_VNMaMxMvSWeMRdE").build()
+app = ApplicationBuilder().token("API").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("balance", balance))
